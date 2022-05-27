@@ -5,11 +5,12 @@ public class Rectangle extends Figure{
     private double width;
 
     public Rectangle(double l, double w) {
-
+        length = l;
+        width = w;
     }
 
     @Override
     public double computeArea() {
-        return 1;
+        return width * length;
     }
 }
