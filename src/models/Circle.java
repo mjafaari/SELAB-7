@@ -10,14 +10,14 @@ public class Circle extends Figure{
 
     @Override
     public double computeArea() {
-        return 1;
+        return radius * radius * pi;
     }
 
     public double getRadius() {
-        return 1;
+        return radius;
     }
 
     public void setRadius(double radius) {
-        return;
+        this.radius = radius;
     }
 }
